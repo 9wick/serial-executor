@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "private": false,
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
